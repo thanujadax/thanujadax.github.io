@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default
 title: Book Reviews
-published: false
 ---
 Coming soon!
 
