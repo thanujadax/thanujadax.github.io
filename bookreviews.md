@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Book Reviews
+published: false
 ---
 Coming soon!
 
