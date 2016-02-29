@@ -19,3 +19,9 @@ In addition to the Scikit-Learn library, I have also tried the classifier provid
 ## Convolutional neural networks 
 
 Currently the state of the art pixel classification results are given by convolutional neural networks (CNNs). The main draw back of CNNs compared random forest classifiers is that CNNs require a much larger training dataset. In our work we used [this fast gpu-based implementation of a convolutional neural network](http://arxiv.org/abs/1509.03371) which is based on [Caffe library](http://caffe.berkeleyvision.org). 
+
+## <a name="gaussianprocesses"></a>Non-linear regression using Gaussian Processes
+
+Non-linear regression deals with the task of learning a function for a given set of input values to a given set of target values which are non-linearly related, so that future targets can be predicted by feeding future inputs to this function. Gaussian Processes give us a way to learn such arbitrary functions by allowing every point in the input space (training data points) to be associated with a normally distributed random variable. Furthermore, it provides a principled framework to determine the variance of the target values.
+
+[Gaussian Processes for Machine Learning (Rasmussen and Williams, The MIT Press, 2006)](http://www.gaussianprocess.org/gpml/) gives a comprehensive understanding of the topic along with an easy to use [library](http://www.gaussianprocess.org/gpml/code/matlab/doc/) written in MATLAB. Apart from that, Scikit-Learn also has a [library](http://scikit-learn.org/stable/modules/gaussian_process.html) for Gaussian Process regression written in python.
