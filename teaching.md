@@ -2,9 +2,9 @@
 layout: default
 title: Teaching
 ---
-#Teaching
+# Teaching
 
-##Imaging and image processing in neuroscience
+## Imaging and image processing in neuroscience
 *Block course for MD-PhD students*
 
 [Code for exercises](https://bitbucket.org/thanujadax/teaching_neuroimageanalysis_md-phd/overview)
