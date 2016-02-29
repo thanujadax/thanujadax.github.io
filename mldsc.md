@@ -3,7 +3,7 @@ layout: page
 title: Machine Learning
 ---
 
-Machine learning is an invaluable tool for solving many problems in computer vision. In the image segmentation algorithms developed or used in our work we use *pixel-wise probability maps* as a starting point. What these probability maps essentially tell us is the probability of each pixel to be given a particular label of interest. For example, in our [2D neuron slice segmentation project]({{ site.url }}), we require the probability of each pixel of the EM image to be part of neuron membrane.
+In the image segmentation algorithms developed or used in our work we use *pixel-wise probability maps* as a starting point. What these probability maps essentially tell us is the probability of each pixel to be given a particular label of interest. For example, in our [2D neuron slice segmentation project]({{ site.url }}), we require the probability of each pixel of the EM image to be part of neuron membrane.
 
 In our work we mainly use *random forest* classifiers and *convolutional neural networks*.
 
