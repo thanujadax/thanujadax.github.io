@@ -19,6 +19,8 @@ In this project we developed an image segmentation method to annotate individual
 ## Non-parametric Bayesian estimation of thickness and anisotropy of serial section electron microscopy images
 [On going]
 
+![sectionThicknessProject.png]({{ site.url }}/assets/images/thicknessWeb.png)
+
 Serial section electron microscopy is a widely used technique in neuroscience research to study anatomical structures and their changes due to experimental stimuli. Serial section images allow researchers to quantify structures in an image *volume* which is typically a stack of images corresponding to a sequence of adjacent tissue sections each of which is only tens of nanometers thick. However, due to imperfections in sample preparation and the sectioning process, the thickness of the sections might vary from the parameters set in the equipment. To obtain accurate statistics using the quantifications within the volumes analysed and also to have realistic 3D reconstructions from the serial section data, we have to estimate the physical thickness of these sections.
 Since it's difficult to measure directly, we propse a method to estimate the thickness using image statistics alone by modeling the relationship between image similarity and the distance between the two images using [gaussian processes]({{site.url}}/mldsc#gaussianprocesses).
 
@@ -33,5 +35,5 @@ Since it's difficult to measure directly, we propse a method to estimate the thi
 coming soon!
 
 ## E-lemming: Remotely controlled bacterium
-In this project we controlled the movement of a bacterium using a joy stick. This was achieved by genetically modifying E.coli by driving its chemotaxis pathway using light inputs instead of a food gradient. This was submitted to the [iGEM competition](http://2010.igem.org/Main_Page) (2010) held at [Massachusetts Institute of Technology](http://web.mit.edu/)
+In this project we remotely controlled the movement of a bacterium using a joy stick. This was achieved by genetically modifying E.coli bacterium to drive its chemotaxis pathway using light inputs instead of a food gradient. This summer project was submitted to the [iGEM competition](http://2010.igem.org/Main_Page) (2010) held at [Massachusetts Institute of Technology](http://web.mit.edu/)
 More information can be found in the [iGEM 2010 ETH Zurich project page](http://2010.igem.org/Team:ETHZ_Basel).

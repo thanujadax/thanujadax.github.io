@@ -4,12 +4,12 @@ title: Teaching
 ---
 # Teaching
 
-## Imaging and image processing in neuroscience
-*Block course for MD-PhD students*
+## Neuroinformatics block course for MD - PhD students
+June 2015
 
 [Code for exercises](https://bitbucket.org/thanujadax/teaching_neuroimageanalysis_md-phd/overview)
 
-## Neuroinformatics Block Course 
-*For bachelor's and master's students*
+## Neuroinformatics block course for bachelor's and master's students 
+September 2014
 
 [Code for exercises](https://github.com/thanujadax/iniblockcourse)
