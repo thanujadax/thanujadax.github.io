@@ -5,7 +5,7 @@ title: Projects Overview
 
 # Projects
 
-## Neuron slice segmentation on 2D electron microscopy images using local constraint-based optimization
+## Neuron slice segmentation on 2D electron microscopy images using local constraint-based ILP
 
 ![ilpSegmentationResult.png]({{ site.url }}/assets/images/ilpSegmentationResult.png)
 
@@ -33,10 +33,11 @@ Since it's difficult to measure directly, we propse a method to estimate the thi
 ## Kernel-based linear approximations for non-linear dynamical systems
 *Master's Thesis (2011)*
 
-Non-linear dynamical systems try to capture the *state* of a system of components that interact with each other by modeling these interactions using a set of ordinary differential equations. In this project we focused on a couple of known models of *gene regulatory networks*. We attempted to find approximate linearized versions of these models in high dimensional feature space. We then used such linearized models to estimate the states of unobserved quantities using *Kalman filtering*.
+Non-linear dynamical systems try to describe the *state* of a system of components that interact with each other by modeling these interactions using a set of ordinary differential equations. In this project we focused on a couple of known models of *gene regulatory networks*. We attempted to find approximate linearized versions of these models in high dimensional feature space. We then used such linearized models to estimate the states of unobserved quantities using *Kalman filtering*.
 
 ## E-lemming: Remotely controlled bacterium
-*Summer Project 2010*
+*Summer Project (2010)*
 
-In this project we remotely controlled the movement of a bacterium using a joy stick. This was achieved by genetically modifying E.coli bacterium to drive its chemotaxis pathway using light inputs instead of a food gradient. This summer project was submitted to the [iGEM competition](http://2010.igem.org/Main_Page) (2010) held at [Massachusetts Institute of Technology](http://web.mit.edu/)
+In this project we remotely controlled the movement of a bacterium using a joy stick. This was achieved by genetically modifying E.coli bacterium to drive its chemotaxis pathway using light inputs instead of a food gradient. This summer project was submitted to the [iGEM competition](http://2010.igem.org/Main_Page) (2010) held at [Massachusetts Institute of Technology](http://web.mit.edu/).
+
 More information can be found in the [iGEM 2010 ETH Zurich project page](http://2010.igem.org/Team:ETHZ_Basel).
