@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Integer Linear Programming
-published: no
+published: false
+=======
 ---
 Coming soon!

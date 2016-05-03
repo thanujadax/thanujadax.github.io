@@ -7,9 +7,9 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:            T.D.A
+title:            Thanuja D. Ambegoda
 tagline:          'Projects Overview'
-description:      'test description'
+description:      ''
 url:              http://thanujadax.github.io
 baseurl:          /
 
@@ -27,3 +27,5 @@ github:
 
 # Gems
 gems: [jekyll-paginate,jekyll-gist]
+
+linkedin_username: thanujad
