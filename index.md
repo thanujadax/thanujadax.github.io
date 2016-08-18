@@ -13,7 +13,7 @@ High resolution electron microscopy (EM) techniques are widely used in the studi
 
 In this project we developed an image segmentation method to annotate individual neuron slices on 2D EM sections as shown in the above figure. The method casts the image segmentation problem into an edge and face labeling problem of a graph. The task at hand would then be to activate or inactivate the labels and the faces of the graph so that the faces of the graph set to be in foreground would correspond to neuron slices. This was achieved by formulating an *Integer Linear Program* with local linear constraints that make sure the solution is consistent with the structure we expect in the final segmentation along with a linear cost function that guides the optimization to the most likely segmentation using the precalculated probabilities individual of pixels of the image to be labeled as belonging to *neuron membrane*. We have tried *random forest classifiers* and *convolutional neural networks* to obtain these probability maps with the latter providing better results. 
 
-[Code (experimental version)](https://bitbucket.org/thanujadax/contourdetection) | [Poster]({{ site.url }}/assets/docs/Thanuja_NCCBI_poster_2015_3.pdf)
+[Code (experimental version)](https://bitbucket.org/thanujadax/contourdetection) | [Poster]({{ site.url }}/assets/docs/Thanuja_NCCBI_poster_2015_3.pdf) | [Manuscript in preparation]
 
 
 ## Non-parametric Bayesian estimation of thickness and anisotropy of serial section electron microscopy images
@@ -23,7 +23,7 @@ In this project we developed an image segmentation method to annotate individual
 Serial section electron microscopy is a widely used technique in neuroscience research to study anatomical structures and their changes due to experimental stimuli. Serial section images allow researchers to quantify structures in an image *volume* which is typically a stack of images corresponding to a sequence of adjacent tissue sections each of which is only tens of nanometers thick. However, due to imperfections in sample preparation and the sectioning process, the thickness of the sections might vary from the parameters set in the equipment. To obtain accurate statistics using the quantifications within the volumes analysed and also to have realistic 3D reconstructions from the serial section data, we have to estimate the physical thickness of these sections.
 Since it's difficult to measure directly, we propse a method to estimate the thickness using image statistics alone by modeling the relationship between image similarity and the distance between the two images using [gaussian processes]({{site.url}}/mldsc#gaussianprocesses).
 
-[Code (experimental version)](https://bitbucket.org/thanujadax/sectionthickness) | [Technical report (in preparation)]
+[Code (experimental version)](https://bitbucket.org/thanujadax/sectionthickness) | [Manuscript in preparation]
 
 ## Automatic quantification of multi-synaptic boutons on large ssSEM sections
 [on going]
