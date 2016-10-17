@@ -5,7 +5,7 @@ title: Projects Overview
 
 # Projects
 
-## Neuron slice segmentation on 2D electron microscopy images using local constraint-based ILP
+## Neuron slice segmentation on 2D electron microscopy images using local topological constraints
 
 ![ilpSegmentationResult.png]({{ site.url }}/assets/images/ilpSegmentationResult.png)
 
