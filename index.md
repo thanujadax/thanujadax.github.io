@@ -5,7 +5,7 @@ title: Projects Overview
 
 # Projects
 
-## Learning to segment neuron boundaries in electron microscopy section using sparse labels with topological constraints
+## Learning to segment neuron boundaries in electron microscopy sections using sparse labels with topological constraints
 
 ![ilpSegmentationResult.png]({{ site.url }}/assets/images/ilpSegmentationResult.png)
 
