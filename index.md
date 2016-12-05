@@ -7,7 +7,7 @@ title: Projects Overview
 
 ## Efficient 2D neuron boundary segmentation with local topological constraints
 
-![ilpSegmentationResult.png]({{ site.url }}/assets/images/ilpSegmentationResult.png)
+![ilpSegmentationResult.png]({{ site.url }}/assets/images/segOutWeb.png)
 
 High resolution electron microscopy (EM) techniques are widely used in the studies of nanometer scaled structures. It's particularly useful in neuroscience research to acquire images containing *synapses* - the junctions through which neurons communicate with each other. In order to make sure the findings of a study are statistically significant, researchers need to analyze large data sets. When it comes to analyzing large image data sets, automatic image segmentation methods are essential to keep the time spent on annotating images to a minimum. Moreover, subjectivity of human annotations can also be avoided by automating image segmentation since algorithms are consistent in performing the task they are programmed to carry out.
 
