@@ -17,7 +17,7 @@ In this project we developed an image segmentation method to annotate individual
 
 The method casts the image segmentation problem into an edge and face labeling problem of a graph. The task at hand would then be to activate or inactivate the labels and the faces of the graph so that the faces of the graph set to be in foreground would correspond to neuron slices. This was achieved by formulating an *Integer Linear Program* with local linear constraints that make sure the solution is consistent with the structure we expect in the final segmentation along with a linear cost function that guides the optimization to the most likely segmentation using the precalculated probabilities individual of pixels of the image to be labeled as belonging to *neuron membrane*. We have tried *random forest classifiers* and *convolutional neural networks* to obtain these probability maps with the latter providing better results. 
 
-[Source code (experimental)](https://github.com/thanujadax/toposeg2d) | [Poster]({{ site.url }}/assets/docs/Thanuja_NCCBI_poster_2015_3.pdf) | [Manuscript in preparation]
+[Source code (experimental)](https://github.com/thanujadax/toposeg2d) | [Manuscript in preparation]
 
 
 ## Non-parametric Bayesian estimation of thickness and anisotropy of serial section electron microscopy images
