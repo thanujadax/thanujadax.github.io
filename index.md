@@ -31,7 +31,8 @@ Since it's difficult to measure directly, we propse a method to estimate the thi
 
 ## Robotic Utility Vehicles
 [on going]
-\\Currently we are working on a prototype that demonstrate simultaneous localization and mapping, and autonomous navigation in outdoor environments.
+
+Currently we are working on a prototype that demonstrate simultaneous localization and mapping, and autonomous navigation in outdoor environments.
 
 ## Automatic quantification of changes of myelination and multi-synaptic boutons due to tutor exposure in songbirds
 [on going]
