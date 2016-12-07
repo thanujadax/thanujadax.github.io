@@ -19,6 +19,10 @@ The method casts the image segmentation problem into an edge and face labeling p
 
 [Source code (experimental)](https://github.com/thanujadax/toposeg2d) | [Manuscript in preparation]
 
+## Robotic Utility Vehicles
+[on going]
+
+Currently we are working on a prototype that demonstrate simultaneous localization and mapping, and autonomous navigation in outdoor environments.
 
 ## Non-parametric Bayesian estimation of thickness and anisotropy of serial section electron microscopy images
 
@@ -28,11 +32,6 @@ Serial section electron microscopy is a widely used technique in neuroscience re
 Since it's difficult to measure directly, we propse a method to estimate the thickness using image statistics alone by modeling the relationship between image similarity and the distance between the two images using [gaussian processes]({{site.url}}/mldsc#gaussianprocesses).
 
 [Source code (experimental)](https://github.com/thanujadax/gpthickness) | [Manuscript in preparation]
-
-## Robotic Utility Vehicles
-[on going]
-
-Currently we are working on a prototype that demonstrate simultaneous localization and mapping, and autonomous navigation in outdoor environments.
 
 ## Automatic quantification of changes of myelination and multi-synaptic boutons due to tutor exposure in songbirds
 [on going]
