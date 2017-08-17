@@ -5,6 +5,10 @@ title: Projects Overview
 
 # Projects
 
+## ENWAY - Technology stack for autonomous navigation and operation of service vehicles
+![enwaylogo.png]({{ site.url }}/assets/images/enwaylogo.png)
+[Visit company website](https://enway.ai)
+
 ## Efficient 2D neuron boundary segmentation with local topological constraints
 
 ![ilpSegmentationResult.png]({{ site.url }}/assets/images/segOutWeb.png)
@@ -17,10 +21,6 @@ We represent the segmentation problem as an edge labeling problem in a graph. Th
 
 [Source code (experimental)](https://github.com/thanujadax/toposeg2d) | [Manuscript in preparation]
 
-## Autonomous navigation and control of robotic utility vehicles
-[on going]
-
-Currently we are working on a prototype that demonstrates simultaneous localization and mapping, and autonomous navigation in outdoor environments.
 
 ## Non-parametric Bayesian estimation of thickness and anisotropy of serial section electron microscopy images
 
