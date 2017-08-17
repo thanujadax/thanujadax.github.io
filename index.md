@@ -6,7 +6,7 @@ title: Projects Overview
 # Projects
 
 ## ENWAY - Technology stack for autonomous navigation and operation of service vehicles
-![enwaylogo.png]({{ site.url }}/assets/images/enwaylogo.png | width=200)
+![enwaylogo.png]({{ site.url }}/assets/images/enwaylogo_small.png)
 [Visit company website](https://enway.ai)
 
 ## Efficient 2D neuron boundary segmentation with local topological constraints
