@@ -9,6 +9,7 @@ title: Projects Overview
 Details are coming soon.
 
 ## ENWAY - Technology stack for autonomous navigation and operation of service vehicles
+![blitz-one.jpg]({{ site.url }}/assets/images/blitz-one.jpg)
 I was with [Enway](https://enway.ai) from 2017 until 2020 as a co-founder. Enway produces autonomous sweepers capable of cleaning warehouses, public squares, car parks and streets, without a human driver.
 
 ## Efficient 2D neuron boundary segmentation with local topological constraints
@@ -29,7 +30,7 @@ We represent the segmentation problem as an edge labeling problem in a graph. Th
 ![sectionThicknessProject.png]({{ site.url }}/assets/images/thicknessWeb.png)
 
 Serial section electron microscopy is a widely used technique in neuroscience research to study anatomical structures and their changes due to experimental stimuli. Serial section images allow researchers to quantify structures in an image *volume* which is typically a stack of images corresponding to a sequence of adjacent tissue sections each of which is only tens of nanometers thick. However, due to imperfections in sample preparation and the sectioning process, the thickness of the sections might vary from the parameters set in the equipment. To obtain accurate statistics using the quantifications within the volumes analysed and also to have realistic 3D reconstructions from the serial section data, we have to estimate the physical thickness of these sections.
-Since it's difficult to measure directly, we propse a method to estimate the thickness using image statistics alone by modeling the relationship between image similarity and the distance between the two images using [gaussian processes]({{site.url}}/mldsc#gaussianprocesses).
+Since it's difficult to measure directly, we propse a method to estimate the thickness using image statistics alone by modeling the relationship between image similarity and the distance between the two images using gaussian processes.
 
 [Source code (experimental)](https://github.com/thanujadax/gpthickness) | [Article](https://arxiv.org/abs/2002.00228)
 
