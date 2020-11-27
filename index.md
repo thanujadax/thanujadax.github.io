@@ -10,7 +10,7 @@ Details are coming soon.
 
 ## ENWAY - Technology stack for autonomous navigation and operation of service vehicles
 ![blitz-one.jpg]({{ site.url }}/assets/images/blitz-one.jpg)
-I was with [Enway](https://enway.ai) from 2017 until 2020 as a co-founder. Enway produces autonomous sweepers capable of cleaning warehouses, public squares, car parks and streets, without a human driver.
+I was with [Enway](https://enway.ai) from 2017 until 2020 as a co-founder. Enway produces autonomous sweepers capable of cleaning warehouses, public squares, car parks and streets, without a human driver. Watch a video [here](https://www.youtube.com/watch?v=LD-oJn8HPBM) if you are interested.
 
 ## Efficient 2D neuron boundary segmentation with local topological constraints
 
