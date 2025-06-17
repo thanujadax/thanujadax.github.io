@@ -61,7 +61,7 @@
 									</p>
 
 									<ul class="actions">
-										<li><a href="https://scholar.google.com/citations?user=DJYcqxMAAAAJ&hl" class="button big">Publications</a></li>
+										<li><a href="publications.html" class="button big">Publications</a></li>
 										<!-- Add your Projects button here -->
 										<li><a href="research.html" class="button big">Projects</a></li>
 									</ul>
@@ -74,11 +74,11 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Research Group - AITR Lab</h2>
+										<h2><a href="https://aitr-lab.github.io/" target="_blank" rel="noopener noreferrer">Research Group - AITR Lab</a></h2>
 									</header>
 										<h3>Artificial Intelligence Translational Research Lab</h3>
 										<p>
-											Dr. Thanuja Ambegoda leads the <strong>Artificial Intelligence Translational Research Lab (AITR Lab)</strong> at the Department of Computer Science and Engineering, University of Moratuwa.
+											Dr. Thanuja Ambegoda leads the <strong>Artificial Intelligence Translational Research Lab (<a href="https://aitr-lab.github.io/" target="_blank" rel="noopener noreferrer">AITR Lab</a>)</strong> at the Department of Computer Science and Engineering, University of Moratuwa.
 											The group's focus is on applying foundational AI and machine learning methods to solve real-world problems across domains such as document analysis, computer vision, and medical imaging.
 											Research conducted at AITR Lab bridges theory and practice, resulting in both high-impact academic publications and practical systems.
 											Current projects include AI-powered document digitization for low-resource languages, medical image analysis, and intelligent automation solutions.
@@ -247,7 +247,7 @@
 
 							<!-- Search -->
 								<section id="search" class="alt">
-									<form method="post" action="#">
+									<form onsubmit="return false;">
 										<input type="text" name="query" id="query" placeholder="Search" />
 									</form>
 								</section>
@@ -260,6 +260,7 @@
 									<ul>
 										<li><a href="index.html">Home</a></li>
 										<li><a href="research.html">Projects</a></li>
+										<li><a href="publications.html">Publications</a></li>
 									</ul>
 								</nav>
 
@@ -296,5 +297,68 @@
 			<script src="assets/js/main.js"></script>
 			<script src="https://kit.fontawesome.com/907d8ca43c.js" crossorigin="anonymous"></script>
 
+		<!-- Search Function -->
+		<script>
+			document.getElementById('query').addEventListener('keyup', function(e) {
+				if (e.key === 'Enter') {
+					e.preventDefault();
+					const searchTerm = this.value.toLowerCase();
+					const content = document.body.innerText;
+					
+					// Remove any existing highlights
+					const highlightedElements = document.getElementsByClassName('search-highlight');
+					while (highlightedElements.length > 0) {
+						const parent = highlightedElements[0].parentNode;
+						parent.replaceChild(document.createTextNode(highlightedElements[0].textContent), highlightedElements[0]);
+						parent.normalize();
+					}
+
+					if (searchTerm.trim() === '') return;
+
+					// Function to highlight text
+					function highlightText(node, searchTerm) {
+						if (node.nodeType === 3) { // Text node
+							const text = node.nodeValue;
+							const lowerText = text.toLowerCase();
+							const index = lowerText.indexOf(searchTerm);
+							
+							if (index >= 0) {
+								const span = document.createElement('span');
+								span.className = 'search-highlight';
+								span.style.backgroundColor = 'yellow';
+								
+								const before = text.substring(0, index);
+								const match = text.substring(index, index + searchTerm.length);
+								const after = text.substring(index + searchTerm.length);
+								
+								node.nodeValue = before;
+								span.appendChild(document.createTextNode(match));
+								node.parentNode.insertBefore(span, node.nextSibling);
+								
+								if (after) {
+									const afterNode = document.createTextNode(after);
+									node.parentNode.insertBefore(afterNode, span.nextSibling);
+									highlightText(afterNode, searchTerm);
+								}
+							}
+						} else if (node.nodeType === 1 && node.nodeName !== 'SCRIPT' && node.nodeName !== 'STYLE') {
+							Array.from(node.childNodes).forEach(child => highlightText(child, searchTerm));
+						}
+					}
+
+					// Start highlighting from the main content
+					const mainContent = document.getElementById('main');
+					if (mainContent) {
+						highlightText(mainContent, searchTerm);
+					}
+
+					// Scroll to first highlight if found
+					const firstHighlight = document.getElementsByClassName('search-highlight')[0];
+					if (firstHighlight) {
+						firstHighlight.scrollIntoView({ behavior: 'smooth', block: 'center' });
+					}
+				}
+			});
+		</script>
 	</body>
 </html>
